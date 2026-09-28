@@ -1,0 +1,121 @@
+﻿SERVICES ET COMMANDES - Terminal Fun
+==========================================
+
+ANIMATIONS
+----------
+ASCII.LIVE
+  Liste actuelle:
+    curl.exe -s https://ascii.live/list
+
+  Lancer:
+    curl.exe https://ascii.live/kitty
+
+PARTY PARROT
+    curl.exe https://parrot.live
+
+AQUARIUM ASCII
+    curl.exe https://asciiquarium.live
+
+
+METEO
+-----
+Meteo d'une ville:
+    curl.exe "https://wttr.in/Toulouse?lang=fr"
+
+Lune:
+    curl.exe "https://wttr.in/Moon?lang=fr"
+
+
+POKEMON ASCII
+-------------
+Exemple Pikachu:
+    curl.exe -L -s "https://raw.githubusercontent.com/shinya/pokemon-terminal-art/main/compact/256color/diamond/025.txt"
+
+Exemple Dracaufeu:
+    curl.exe -L -s "https://raw.githubusercontent.com/shinya/pokemon-terminal-art/main/compact/256color/diamond/006.txt"
+
+
+STAR WARS ASCII
+---------------
+Si le service public repond:
+    telnet towel.blinkenlights.nl
+
+Activer Telnet sur Windows, dans un terminal ADMIN:
+    dism /online /Enable-Feature /FeatureName:TelnetClient /All
+
+
+CHEAT.SH
+--------
+Aide curl:
+    curl.exe https://cheat.sh/curl
+
+Aide git:
+    curl.exe https://cheat.sh/git
+
+Aide Python:
+    curl.exe https://cheat.sh/python
+
+Recherche:
+    curl.exe "https://cheat.sh/~mot"
+
+
+QR CODE
+-------
+Exemple:
+    curl.exe https://qrenco.de/https%3A%2F%2Fopenai.com
+
+
+IP PUBLIQUE
+-----------
+    curl.exe https://ifconfig.me/ip
+
+
+CRYPTO
+------
+Tableau principal:
+    curl.exe https://rate.sx
+
+Bitcoin:
+    curl.exe https://rate.sx/btc
+
+Ethereum:
+    curl.exe https://rate.sx/eth
+
+
+COULEURS CMD
+------------
+Syntaxe:
+    color XY
+
+X = fond
+Y = texte
+
+0 Noir
+1 Bleu fonce
+2 Vert fonce
+3 Cyan fonce
+4 Rouge fonce
+5 Violet fonce
+6 Jaune/ocre
+7 Gris clair
+8 Gris fonce
+9 Bleu clair
+A Vert clair / fluo
+B Cyan clair
+C Rouge clair
+D Violet / magenta clair
+E Jaune clair
+F Blanc brillant
+
+Exemples:
+    color 0A
+    color 0D
+    color 0B
+    color 0C
+    color 0E
+    color 0F
+
+NOTE
+----
+Les services Internet peuvent changer ou devenir temporairement indisponibles.
+MATRIX_LOCAL.ps1 est local et ne depend d'aucun service externe.
